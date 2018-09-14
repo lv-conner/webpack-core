@@ -24,7 +24,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./static/index.html",
             filename: "../../../Views/Home/home.cshtml",
-            chunks: ['commons', 'home'],
+            chunks: ['commons', 'home']
         }),
         new HtmlWebpackPlugin({
             template: "./static/hello.html",
